@@ -3,6 +3,7 @@ package Persona;
 public class Persona {
 	private String nombre;
 	private int edad;
+	int asdasdasd;
 	public String getNombre() {
 		return nombre;
 	}
