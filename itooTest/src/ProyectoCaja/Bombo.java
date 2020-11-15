@@ -5,6 +5,7 @@ int bombo;
 int caja;
 int valor;
 int asd;
+int ddd;
 
 
 }
