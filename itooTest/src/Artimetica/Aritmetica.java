@@ -4,6 +4,7 @@ public class Aritmetica {
 
 	int a;
 	int b;
+	int c;
 	
 	public int getA() {
 		int asdasd;
