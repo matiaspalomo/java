@@ -6,7 +6,9 @@ public class Aritmetica {
 	int b;
 	
 	public int getA() {
+		int asdasd;
 		return a;
+		
 	}
 	public void setA(int a) {
 		this.a = a;
