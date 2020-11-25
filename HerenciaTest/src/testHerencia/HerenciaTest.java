@@ -2,8 +2,10 @@ package testHerencia;
 
 import java.util.Date;
 
+
 import Herencia.Cliente;
 import Herencia.Empleado;
+import Herencia.Persona;
 
 public class HerenciaTest {
 
@@ -14,8 +16,12 @@ public class HerenciaTest {
 		Empleado empleado2= new Empleado("asd", 10000);
 		System.out.println(empleado2);
 */
-		Cliente cliente1=new Cliente("matias","masculino",33,"fortunato",  new Date(),false);
+		var fecha=new Date();
+		Cliente cliente1=new Cliente("matias","masculino",33,"fortunato",fecha,false);
 		System.out.println(cliente1);
+	
+		Persona persona1=new Persona();
+	
 	}
 
 }
